@@ -2,7 +2,7 @@ package acciones;
 import javax.swing.JOptionPane;
 
 import aplicacionJDBC.*;
-public class buscar {
+public class NuevoCoche {
 
 	public static void main(String[] args) {
 		String marca = JOptionPane.showInputDialog("Introduce tu marca: ");
