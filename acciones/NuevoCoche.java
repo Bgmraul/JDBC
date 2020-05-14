@@ -14,6 +14,7 @@ public class NuevoCoche {
 
 		Coche.insertar(marca, modelo, vel_max, aceleracion, peso, control);
     Coche coches[] = Coche.listar();
+
     if(coches.length > 1){
         Coche.borrar(coches[0].getId());
 		    Coche coche_actualizado = coches[coches.length - 2];
