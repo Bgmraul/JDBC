@@ -12,7 +12,7 @@ public class NuevoUsuario {
 		String contrasena = JOptionPane.showInputDialog("Introduce tu contrasena: ");
 
 		Usuario.insertar(nombre, apellidos, email, contrasena);
-		Usuario usuarios[]  = Usuario.listar();
+		Usuario usuarios[] = Usuario.listar();
 		Usuario.borrar(usuarios[0].getId());
 		Usuario usuario_actualizado = usuarios[usuarios.length - 2];
 		usuario_actualizado.setNombre("Morfeo");
